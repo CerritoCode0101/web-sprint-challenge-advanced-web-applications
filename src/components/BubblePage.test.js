@@ -2,12 +2,15 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import BubblePage from "./BubblePage";
 
+
 test("Renders BubblePage without errors", () => {
-  // Finish this test
+  render(< BubblePage />)
 });
 
 test("Fetches data and renders the bubbles on mounting", () => {
   // Finish this test
+  // I tried a few different things, could not get this to pass. R.I.P
+  // will finish!
 });
 
 //Task List

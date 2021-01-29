@@ -88,32 +88,47 @@ form {
   display: flex;
   justify-content: space-between;
   padding: 0 36px 0 41px;
-}
-button {
-  border: none;
-  background-color: black;
-  color: white;
-  padding: 3px 8px;
-  margin-top: 16px;
+
+  button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 3px 8px;
+    margin-top: 16px;
+  }
 }
 
-.error {
-  color: red;
-}
 
 .login-form {
-  align-self: center;
   margin: 0 auto;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 36px;
-
-  form {
-    margin-top: 0;
-  }
 
   input {
-    width: 200px;
-    margin-left: 16px;
+    width: 60%;
+    margin: 10px auto;
+  }
+
+  button {
+    width: 30%;
+    margin: 10px auto;
+  }
+}
+
+nav {
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+
+  li {
+    list-style: none;
+    margin-right: 5px;
+    color: #696969;
+  }
+
+  a {
+    text-decoration: none;
+    padding: 5px;
+    color: #696969;
   }
 }
